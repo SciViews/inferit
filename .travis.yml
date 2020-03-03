@@ -1,4 +1,24 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
-language: R
+language: r
+sudo: false
 cache: packages
+
+r:
+  - oldrel
+  - release
+  - devel
+
+branches:
+  only:
+    - master
+
+# Be strict when checking our package, but don't build the manual
+warnings_are_errors: true
+
+
+# Email notifications
+notifications:
+  email:
+    on_success: change
+    on_failure: change

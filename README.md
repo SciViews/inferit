@@ -1,7 +1,7 @@
 # inferit
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/SciViews/inferit.svg?branch=master)](https://travis-ci.org/SciViews/inferit)
+[![Travis build status](https://travis-ci.org/SciViews/inferit.svg)](https://travis-ci.org/SciViews/inferit)
 <!-- badges: end -->
 
 Inference Tools for SciViews::R
