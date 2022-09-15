@@ -1,0 +1,21 @@
+Package: inferit
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: c(person(
+    given = "Philippe",
+    family = "Grosjean", 
+    role = c("aut", "cre"),
+    email = "phgrosjean@sciviews.org"),
+    person(
+    given = "Guyliann",
+    family = "Engels",
+    role = c("aut"),
+    email = "guyliann.engels@umons.ac.be",
+    comment = c(ORCID = "https://orcid.org/0000-0001-9514-1014")))
+Maintainer: Guyliann Engels <guyliann.engels@umons.ac.be>
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
