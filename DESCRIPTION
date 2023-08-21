@@ -16,6 +16,11 @@ Maintainer: Guyliann Engels <guyliann.engels@umons.ac.be>
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
+Language: en-us
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.2.3
+Imports: 
+    flextable,
+    tabularise,
+    rlang
