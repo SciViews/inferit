@@ -2,7 +2,7 @@
 % Please edit documentation in R/tabularise.htest.R
 \name{tabularise_default.htest}
 \alias{tabularise_default.htest}
-\title{Method to transform htest object into a flextable object}
+\title{Create a ric-formatted table from an htest object}
 \usage{
 \method{tabularise_default}{htest}(
   data,
@@ -14,32 +14,32 @@
 )
 }
 \arguments{
-\item{data}{An htest object}
+\item{data}{An \strong{htest} object}
 
-\item{header}{If TRUE add a title to the table}
+\item{header}{If \code{TRUE} (by default), add a title to the table}
 
-\item{lang}{The language to use. The default value can be set with, e.g., options(data.io_lang = "fr") for French.}
+\item{lang}{The natural language to use. The default value can be set with,
+e.g., \code{options(data.io_lang = "fr")} for French.}
 
-\item{show.signif.stars}{If TRUE add the sifnificance stars to the table}
+\item{show.signif.stars}{If \code{TRUE} (by default), add the significance stars
+to the table.}
 
-\item{...}{Unused argument}
+\item{...}{Additional arguments (unused for now).}
 
-\item{env}{The environment where to evaluate the function}
+\item{env}{The environment where to evaluate lazyeval expressions (unused for
+now).}
 }
 \value{
 A \strong{flextable} object you can print in different form or rearrange
 with the {flextable} functions.
 }
 \description{
-This method tabularises an htest object as a flextable.
+Default type to \code{\link[=tabularise]{tabularise()}} an \strong{htest} object as a flextable.
 }
 \examples{
-library(tabularise)
-
 data(iris)
 cor <- cor.test(iris$Sepal.Length, iris$Sepal.Width)
-tabularise(cor)
+tabularise::tabularise(cor)
 
-tabularise(t.test(1:10, y = c(7:20)))
-
+tabularise::tabularise(t.test(x = 1:10, y = 7:20), lang = "fr")
 }
