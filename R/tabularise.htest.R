@@ -1,4 +1,4 @@
-#' Create a ric-formatted table from an htest object
+#' Create a rich-formatted table from an htest object
 #'
 #' @description
 #' Default type to [tabularise()] an **htest** object as a flextable.

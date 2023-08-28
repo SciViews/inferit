@@ -2,7 +2,7 @@
 % Please edit documentation in R/tabularise.htest.R
 \name{tabularise_default.htest}
 \alias{tabularise_default.htest}
-\title{Create a ric-formatted table from an htest object}
+\title{Create a rich-formatted table from an htest object}
 \usage{
 \method{tabularise_default}{htest}(
   data,
