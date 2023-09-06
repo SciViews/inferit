@@ -126,7 +126,7 @@ show.signif.stars = getOption("show.signif.stars", TRUE),
     ft <- compose(ft, j = "estimate", value = as_paragraph(
       estimate, " (",x$conf.int[[1]], "-", x$conf.int[[2]], ")"))
 
-    ft <- compose(ft, j="estimate",part = "header", value = para_md(paste0(
+    ft <- compose(ft, j = "estimate",part = "header", value = para_md(paste0(
       labels_auto["estimate"], " (",
       info_lang["conf.level"], ":",
       100 * attr(x$conf.int, "conf.level"), "%)"))
