@@ -1,23 +1,29 @@
 #' Create a rich-formatted table from an htest object
 #'
 #' @description
-#' Default type to [tabularise()] an **htest** object as a flextable.
+#' [tabularise()] an **htest** object (intoa a **flextable**) that can be
+#' further post-edited..
 #'
 #' @param data An **htest** object
-#' @param header If `TRUE` (by default), add a title to the table
+#' @param header If `TRUE` (by default), add a header to the table
+#' @param title If `TRUE`, add a title to the table header. Default to the same
+#'   value than header, except outside of a chunk where it is `FALSE` if a table
+#'   caption is detected (`tbl-cap` YAML entry).
 #' @param lang The natural language to use. The default value can be set with,
 #'   e.g., `options(data.io_lang = "fr")` for French.
-#' @param show.signif.stars If `TRUE` (by default), add the significance stars
-#'   to the table.
+#' @param show.signif.stars If `TRUE`, add the significance stars
+#'   to the table. The default value is obtained from
+#'   `getOption("show.signif.stars"")`.
 #' @param ... Additional arguments (unused for now).
 #' @param env The environment where to evaluate lazyeval expressions (unused for
 #'   now).
-#' @return A **flextable** object you can print in different form or rearrange
+#' @return A **flextable** object you can print in different forms or rearrange
 #' with the {flextable} functions.
 #'
 #' @export
 #' @importFrom tabularise tabularise_default colformat_sci
 #' @importFrom rlang .data
+#' @importFrom knitr opts_current
 #' @method tabularise_default htest
 #'
 #' @examples
@@ -26,10 +32,18 @@
 #' tabularise::tabularise(cor)
 #'
 #' tabularise::tabularise(t.test(x = 1:10, y = 7:20), lang = "fr")
-tabularise_default.htest <- function(data, header = TRUE,
+tabularise_default.htest <- function(data, header = TRUE, title = NULL,
 lang = getOption("data.io_lang", "en"),
 show.signif.stars = getOption("show.signif.stars", TRUE),
 ..., env = parent.frame()) {
+
+  # If title is not provided, determine if we have to use TRUE or FALSE
+  if (missing(title)) {
+    title <- header # Default to same as header, but...
+    # if a caption is defined in the chunk, it defauts to FALSE
+    if (!is.null(knitr::opts_current$get('tbl-cap')))
+      title <- FALSE
+  }
 
   lang <- tolower(lang)
   if (lang != "fr") {
@@ -138,19 +152,21 @@ show.signif.stars = getOption("show.signif.stars", TRUE),
 
   # Add header
   if (isTRUE(header)) {
-    method <- info_lang[["method"]]
-    if (x$method %in% names(method)) {
-      heads <- method[[x$method]]
-      if (length(heads) > 1) {
-        headers <- heads[[x$alternative]]
+    if (isTRUE(title)) {
+      method <- info_lang[["method"]]
+      if (x$method %in% names(method)) {
+        heads <- method[[x$method]]
+        if (length(heads) > 1) {
+          headers <- heads[[x$alternative]]
+        } else {
+          headers <- heads
+        }
       } else {
-        headers <- heads
+        headers <- x$method
       }
-    } else {
-      headers <- x$method
+      ft <- add_header_lines(ft, values = para_md(headers), top = TRUE)
+      ft <- align(ft, i = 1, align = "right", part = "header")
     }
-    ft <- add_header_lines(ft, values = para_md(headers), top = TRUE)
-    ft <- align(ft, i = 1, align = "right", part = "header")
   }
 
   # Adjust cell with autofit()

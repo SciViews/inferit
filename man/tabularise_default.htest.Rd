@@ -7,6 +7,7 @@
 \method{tabularise_default}{htest}(
   data,
   header = TRUE,
+  title = NULL,
   lang = getOption("data.io_lang", "en"),
   show.signif.stars = getOption("show.signif.stars", TRUE),
   ...,
@@ -16,13 +17,18 @@
 \arguments{
 \item{data}{An \strong{htest} object}
 
-\item{header}{If \code{TRUE} (by default), add a title to the table}
+\item{header}{If \code{TRUE} (by default), add a header to the table}
+
+\item{title}{If \code{TRUE}, add a title to the table header. Default to the same
+value than header, except outside of a chunk where it is \code{FALSE} if a table
+caption is detected (\code{tbl-cap} YAML entry).}
 
 \item{lang}{The natural language to use. The default value can be set with,
 e.g., \code{options(data.io_lang = "fr")} for French.}
 
-\item{show.signif.stars}{If \code{TRUE} (by default), add the significance stars
-to the table.}
+\item{show.signif.stars}{If \code{TRUE}, add the significance stars
+to the table. The default value is obtained from
+\verb{getOption("show.signif.stars"")}.}
 
 \item{...}{Additional arguments (unused for now).}
 
@@ -30,11 +36,12 @@ to the table.}
 now).}
 }
 \value{
-A \strong{flextable} object you can print in different form or rearrange
+A \strong{flextable} object you can print in different forms or rearrange
 with the {flextable} functions.
 }
 \description{
-Default type to \code{\link[=tabularise]{tabularise()}} an \strong{htest} object as a flextable.
+\code{\link[=tabularise]{tabularise()}} an \strong{htest} object (intoa a \strong{flextable}) that can be
+further post-edited..
 }
 \examples{
 data(iris)
