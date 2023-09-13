@@ -1,6 +1,6 @@
 Package: inferit
 Title: What the Package Does (One Line, Title Case)
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: c(person(
     given = "Philippe",
     family = "Grosjean", 
