@@ -45,8 +45,8 @@ further post-edited..
 }
 \examples{
 data(iris)
-cor <- cor.test(iris$Sepal.Length, iris$Sepal.Width)
-tabularise::tabularise(cor)
+iris_cor <- cor.test(iris$Sepal.Length, iris$Sepal.Width)
+tabularise::tabularise(iris_cor)
 
 tabularise::tabularise(t.test(x = 1:10, y = 7:20), lang = "fr")
 }

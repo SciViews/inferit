@@ -187,24 +187,24 @@ infos_en_htest <- list(
   method = list(
     " Two Sample t-test" = c(
       #two.sided = "Two sided two-sample t-test",
-      two.sided = "Two sided independent samples t-test",
-      less = "Left sided independent samples t-test",
-      greater = "Right sided independent samples t-test"
+      two.sided = "Two sided independent samples *t*-test",
+      less = "Left sided independent samples *t*-test",
+      greater = "Right sided independent samples *t*-test"
     ),
     "Welch Two Sample t-test" = c(
-      two.sided = "Two sided Welch independent samples t-test",
-      less = "Left sided Welch independent samples t-test",
-      greater = "Right sided Welch independent samples t-test"
+      two.sided = "Two sided Welch independent samples *t*-test",
+      less = "Left sided Welch independent samples *t*-test",
+      greater = "Right sided Welch independent samples *t*-test"
     ),
     "Paired t-test" = c(
-      two.sided = "Two sided paired t-test",
-      less = "Left sided paired t-test",
-      greater = "Right sided paired t-test"
+      two.sided = "Two sided paired *t*-test",
+      less = "Left sided paired *t*-test",
+      greater = "Right sided paired *t*-test"
     ),
     "One Sample t-test" = c(
-      two.sided = "Two sided one sample t-test",
-      less = "Left sided one sample t-test",
-      greater = "Right sided paired t-test"
+      two.sided = "Two sided one sample *t*-test",
+      less = "Left sided one sample *t*-test",
+      greater = "Right sided paired *t*-test"
     ),
     "Wilcoxon rank sum test with continuity correction" = c(
       two.sided = "Two sided Wilcoxon rank sum test with continuity correction",
@@ -278,26 +278,26 @@ infos_fr_htest <- list(
   method = list(
     " Two Sample t-test" = c(
       two.sided =
-        "Test t bilat\u00e9ral d'ind\u00e9pendance  avec variances \u00e9gales",
+        "Test *t* bilat\u00e9ral d'ind\u00e9pendance  \u00e0 variances \u00e9gales",
       less =
-        "Test t unilat\u00e9ral \u00e0 gauche d'ind\u00e9pendance avec variances \u00e9gales",
+        "Test *t* unilat\u00e9ral \u00e0 gauche d'ind\u00e9pendance \u00e0 variances \u00e9gales",
       greater =
-        "Test t unilat\u00e9ral \u00e0 droite d'ind\u00e9pendance avec variances \u00e9gales"),
+        "Test *t* unilat\u00e9ral \u00e0 droite d'ind\u00e9pendance \u00e0 variances \u00e9gales"),
     "Welch Two Sample t-test" = c(
-      two.sided = "Test bilat\u00e9ral d'ind\u00e9pendance de Welch",
-      less = "Test unilat\u00e9ral \u00e0 gauche d'ind\u00e9pendance de Welch",
+      two.sided = "Test *t* bilat\u00e9ral d'ind\u00e9pendance \u00e0 variances in\u00e9gales (Welch)",
+      less = "Test *t* unilat\u00e9ral \u00e0 gauche d'ind\u00e9pendance \u00e0 variances in\u00e9gales (Welch)",
       greater =
-        "Test unilat\u00e9ral \u00e0 droite d'ind\u00e9pendance de Welch"
+        "Test *t* unilat\u00e9ral \u00e0 droite d'ind\u00e9pendance \u00e0 variances in\u00e9gales (Welch)"
     ),
     "Paired t-test" = c(
-      two.sided = "Test t bilat\u00e9ral appari\u00e9",
-      less = "Test t unilat\u00e9ral \u00e0 gauche appari\u00e9",
-      greater = "Test t unilat\u00e9ral \u00e0 droite appari\u00e9"
+      two.sided = "Test *t* bilat\u00e9ral appari\u00e9",
+      less = "Test *t* unilat\u00e9ral \u00e0 gauche appari\u00e9",
+      greater = "Test *t* unilat\u00e9ral \u00e0 droite appari\u00e9"
     ),
     "One Sample t-test" = c(
-      two.sided = "Test t bilat\u00e9ral univari\u00e9",
-      less = "Test t unilat\u00e9ral \u00e0 gauche univari\u00e9",
-      greater = "Test t unilat\u00e9ral \u00e0 droite univari\u00e9"
+      two.sided = "Test *t* bilat\u00e9ral univari\u00e9",
+      less = "Test *t* unilat\u00e9ral \u00e0 gauche univari\u00e9",
+      greater = "Test *t* unilat\u00e9ral \u00e0 droite univari\u00e9"
     ),
     "Wilcoxon rank sum test with continuity correction" = c(
       two.sided = "Test de Wilcoxon bilat\u00e9ral",
