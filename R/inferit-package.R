@@ -1,5 +1,22 @@
-#' @keywords internal
-"_PACKAGE"
+#' Hypothesis Tests and Statistical Distributions for 'SciViews::R'
+#'
+#' Statistical distributions and hypothesis tests objects with rich-formatted
+#' charts and tables.
+#'
+#' @section Important functions:
+#'
+#' - [tabularise()] methods for **htest** objects.
+#'
+#' - [stddev()] for **distribution** objects.
+#'
+#' - [dfun()], [cdfun()] density function for **distribution** objects.
+
+#'- [chart()] method for **distribution** objects.
+#'
+#'- [geom_funfill()] fills a part of a distribution density function.
+#'
+#' @docType package
+#' @name inferit-package
 
 ## usethis namespace: start
 #' @importFrom flextable add_footer_lines add_header_lines align as_paragraph

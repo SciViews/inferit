@@ -40,7 +40,7 @@ A \strong{flextable} object you can print in different forms or rearrange
 with the {flextable} functions.
 }
 \description{
-\code{\link[=tabularise]{tabularise()}} an \strong{htest} object (intoa a \strong{flextable}) that can be
+\code{\link[=tabularise]{tabularise()}} an \strong{htest} object (into a a \strong{flextable}) that can be
 further post-edited..
 }
 \examples{

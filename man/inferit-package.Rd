@@ -2,19 +2,20 @@
 % Please edit documentation in R/inferit-package.R
 \docType{package}
 \name{inferit-package}
-\alias{inferit}
 \alias{inferit-package}
-\title{inferit: What the Package Does (One Line, Title Case)}
+\title{Hypothesis Tests and Statistical Distributions for 'SciViews::R'}
 \description{
-What the package does (one paragraph).
+Statistical distributions and hypothesis tests objects with rich-formatted
+charts and tables.
 }
-\author{
-\strong{Maintainer}: Philippe Grosjean \email{phgrosjean@sciviews.org}
+\section{Important functions}{
 
-Authors:
 \itemize{
-  \item Guyliann Engels \email{guyliann.engels@umons.ac.be} (\href{https://orcid.org/0000-0001-9514-1014}{ORCID})
+\item \code{\link[=tabularise]{tabularise()}} methods for \strong{htest} objects.
+\item \code{\link[=stddev]{stddev()}} for \strong{distribution} objects.
+\item \code{\link[=dfun]{dfun()}}, \code{\link[=cdfun]{cdfun()}} density function for \strong{distribution} objects.
+\item \code{\link[=chart]{chart()}} method for \strong{distribution} objects.
+\item \code{\link[=geom_funfill]{geom_funfill()}} fills a part of a distribution density function.
+}
 }
 
-}
-\keyword{internal}

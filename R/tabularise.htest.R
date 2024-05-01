@@ -1,7 +1,7 @@
 #' Create a rich-formatted table from an htest object
 #'
 #' @description
-#' [tabularise()] an **htest** object (intoa a **flextable**) that can be
+#' [tabularise()] an **htest** object (into a a **flextable**) that can be
 #' further post-edited..
 #'
 #' @param data An **htest** object
@@ -15,6 +15,8 @@
 #'   to the table. The default value is obtained from
 #'   `getOption("show.signif.stars"")`.
 #' @param ... Additional arguments (unused for now).
+#' @param kind The kind of table to produce: "tt" for tinytable, or "ft" for
+#' flextable (default).
 #' @param env The environment where to evaluate lazyeval expressions (unused for
 #'   now).
 #' @return A **flextable** object you can print in different forms or rearrange
@@ -33,9 +35,9 @@
 #'
 #' tabularise::tabularise(t.test(x = 1:10, y = 7:20), lang = "fr")
 tabularise_default.htest <- function(data, header = TRUE, title = NULL,
-lang = getOption("data.io_lang", "en"),
-show.signif.stars = getOption("show.signif.stars", TRUE),
-..., env = parent.frame()) {
+    lang = getOption("data.io_lang", "en"),
+    show.signif.stars = getOption("show.signif.stars", TRUE), ...,
+    kind = "ft", env = parent.frame()) {
 
   # If title is not provided, determine if we have to use TRUE or FALSE
   if (missing(title)) {

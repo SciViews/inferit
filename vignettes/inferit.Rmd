@@ -1,0 +1,21 @@
+---
+title: "Hypothesis Tests and Statistical Distributions for 'SciViews::R'"
+author: "Philippe Grosjean & Guyliann Engels"
+date: "`r Sys.Date()`"
+output:
+  rmarkdown::html_vignette:
+    toc: true
+    toc_depth: 3
+    fig_caption: yes
+vignette: >
+  %\VignetteIndexEntry{Hypothesis Tests and Statistical Distributions for 'SciViews::R'}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.align = 'center')
+library(inferit)
+```
+
+The {inferit} package does ...

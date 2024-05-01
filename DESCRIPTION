@@ -1,24 +1,45 @@
 Package: inferit
-Title: What the Package Does (One Line, Title Case)
+Type: Package
 Version: 0.3.0
-Authors@R: c(person(
-    given = "Philippe",
-    family = "Grosjean", 
-    role = c("aut", "cre"),
-    email = "phgrosjean@sciviews.org"),
-    person(
-    given = "Guyliann",
-    family = "Engels",
-    role = c("aut"),
+Title: Hypothesis Tests and Statistical Distributions for 'SciViews::R'
+Description: Statistical distributions (including their visual representation)
+  and hypothesis tests with rich-formatted tabular outputs for the 'SciViews::R'
+  dialect.
+Authors@R: c( 
+  person("Philippe", "Grosjean", role = c("aut", "cre"),
+    email = "phgrosjean@sciviews.org",
+    comment = c(ORCID = "0000-0002-2694-9471")),
+  person("Guyliann", "Engels", role = c("aut"),
     email = "guyliann.engels@umons.ac.be",
-    comment = c(ORCID = "https://orcid.org/0000-0001-9514-1014")))
-Maintainer: Guyliann Engels <guyliann.engels@umons.ac.be>
-Description: What the package does (one paragraph).
+    comment = c(ORCID = "0000-0001-9514-1014")))
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+Depends:
+    R (>= 4.2.0)
+Imports:
+    chart (>= 1.5.0),
+    distributional (>= 0.3.2),
+    flextable (>= 0.9.1),
+    ggplot2 (>= 3.4.2),
+    knitr (>= 1.42),
+    rlang (>= 1.1.1),
+    stats (>= 4.2.0),
+    tabularise (>= 0.6.0)
+Suggests:
+    rmarkdown (>= 2.21),
+    spelling (>= 2.2.1),
+    testthat (>= 3.0.0)
+Remotes:
+    ardata-fr/equatags,
+    datalorax/equatiomatic,
+    SciViews/chart,
+    SciViews/tabularise
 License: MIT + file LICENSE
-Encoding: UTF-8
-Language: en-us
-LazyData: true
+URL: https://github.com/SciViews/inferit, https://www.sciviews.org/inferit/
+BugReports: https://github.com/SciViews/inferit/issues
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Depends: R (>= 4.2.0)
-Imports: flextable, tabularise, rlang, chart, ggplot2, stats, distributional, knitr
+VignetteBuilder: knitr
+Encoding: UTF-8
+Language: en-US
+ByteCompile: yes
+Config/testthat/edition: 3
