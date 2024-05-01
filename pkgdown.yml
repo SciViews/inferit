@@ -3,7 +3,7 @@ pkgdown: 2.0.9
 pkgdown_sha: ~
 articles:
   inferit: inferit.html
-last_built: 2024-05-01T12:55Z
+last_built: 2024-05-01T14:44Z
 urls:
   reference: https://www.sciviews.org/inferit/reference
   article: https://www.sciviews.org/inferit/articles
