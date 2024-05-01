@@ -42,7 +42,7 @@ geom_funfill(
 )
 }
 \arguments{
-\item{object}{A \strong{distribution} object, as from the {distributional}
+\item{object}{A \strong{distribution} object, as from the \{distributional\}
 package.}
 
 \item{i}{The distribution to use from the list (first one by default)}

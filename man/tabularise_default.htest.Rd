@@ -11,6 +11,7 @@
   lang = getOption("data.io_lang", "en"),
   show.signif.stars = getOption("show.signif.stars", TRUE),
   ...,
+  kind = "ft",
   env = parent.frame()
 )
 }
@@ -32,12 +33,15 @@ to the table. The default value is obtained from
 
 \item{...}{Additional arguments (unused for now).}
 
+\item{kind}{The kind of table to produce: "tt" for tinytable, or "ft" for
+flextable (default).}
+
 \item{env}{The environment where to evaluate lazyeval expressions (unused for
 now).}
 }
 \value{
 A \strong{flextable} object you can print in different forms or rearrange
-with the {flextable} functions.
+with the \{flextable\} functions.
 }
 \description{
 \code{\link[=tabularise]{tabularise()}} an \strong{htest} object (into a a \strong{flextable}) that can be

@@ -4,7 +4,7 @@
 #' The functions [dfun()] and [geom_funfill()], together with [chart()] allow to
 #' plot them.
 #'
-#' @param object A **distribution** object, as from the {distributional}
+#' @param object A **distribution** object, as from the \{distributional\}
 #'   package.
 #' @param i The distribution to use from the list (first one by default)
 #' @param n The number of points to use to draw the density functions (500 by

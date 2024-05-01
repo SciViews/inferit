@@ -13,7 +13,7 @@ stddev(x, ...)
 \method{stddev}{distribution}(x, ...)
 }
 \arguments{
-\item{x}{A \strong{distribution} object, as from the {distributional} package.}
+\item{x}{A \strong{distribution} object, as from the \{distributional\} package.}
 
 \item{...}{Further arguments (not used yet).}
 }

@@ -4,7 +4,7 @@
 #' The generic functions [stddev()] returns the standard deviation for these
 #' distributions.
 #'
-#' @param x A **distribution** object, as from the {distributional} package.
+#' @param x A **distribution** object, as from the \{distributional\} package.
 #' @param ... Further arguments (not used yet).
 #'
 #' @return A numeric vector with one or more standard deviations.

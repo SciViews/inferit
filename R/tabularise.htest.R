@@ -20,7 +20,7 @@
 #' @param env The environment where to evaluate lazyeval expressions (unused for
 #'   now).
 #' @return A **flextable** object you can print in different forms or rearrange
-#' with the {flextable} functions.
+#' with the \{flextable\} functions.
 #'
 #' @export
 #' @importFrom tabularise tabularise_default colformat_sci
