@@ -1,3 +1,3 @@
 # inferit 0.3.0
 
--   First distributed version.
+-   First distributed version of the package.
