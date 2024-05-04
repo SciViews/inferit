@@ -1,5 +1,7 @@
 CMD
 Codecov
+datalorax
+equatiomatic
 flextable
 ggplot
 github
@@ -8,6 +10,8 @@ htest
 lazyeval
 ORCID
 SciViews
+texPreview
 tinytable
 tt
 YAML
+yonicd

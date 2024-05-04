@@ -1,6 +1,6 @@
 Package: inferit
 Type: Package
-Version: 0.3.0
+Version: 0.3.1
 Title: Hypothesis Tests and Statistical Distributions for 'SciViews::R'
 Description: Statistical distributions (including their visual representation)
   and hypothesis tests with rich-formatted tabular outputs for the 'SciViews::R'
