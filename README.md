@@ -1,4 +1,4 @@
-# Hypothesis Tests and Statistical Distributions for 'SciViews::R'
+# Hypothesis Tests and Statistical Distributions for 'SciViews::R' <a href='https://www.sciviews.org/inferit'><img src='man/figures/logo.png' align='right' height='139'/></a>
 
 <!-- badges: start -->
 

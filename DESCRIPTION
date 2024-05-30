@@ -16,23 +16,23 @@ Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
 Depends:
     R (>= 4.2.0)
 Imports:
-    chart (>= 1.5.0),
-    distributional (>= 0.3.2),
-    flextable (>= 0.9.1),
-    ggplot2 (>= 3.4.2),
-    knitr (>= 1.42),
-    rlang (>= 1.1.1),
-    stats (>= 4.2.0),
-    tabularise (>= 0.6.0)
+  chart (>= 1.5.0),
+  distributional (>= 0.3.2),
+  flextable (>= 0.9.1),
+  ggplot2 (>= 3.4.2),
+  knitr (>= 1.42),
+  rlang (>= 1.1.1),
+  stats (>= 4.2.0),
+  tabularise (>= 0.6.0)
 Suggests:
-    rmarkdown (>= 2.21),
-    spelling (>= 2.2.1),
-    testthat (>= 3.0.0)
+  equatags (>= 0.2.0),
+  equatiomatic (>= 0.3.0),
+  rmarkdown (>= 2.21),
+  spelling (>= 2.2.1),
+  testthat (>= 3.0.0)
 Remotes:
-    ardata-fr/equatags,
-    SciViews/equatiomatic,
-    SciViews/chart,
-    SciViews/tabularise
+  SciViews/chart,
+  SciViews/tabularise
 License: MIT + file LICENSE
 URL: https://github.com/SciViews/inferit, https://www.sciviews.org/inferit/
 BugReports: https://github.com/SciViews/inferit/issues
