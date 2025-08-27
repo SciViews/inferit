@@ -1,5 +1,5 @@
 ---
-title: "Hypothesis Tests and Statistical Distributions for 'SciViews::R'"
+title: "'SciViews::R' - Hypothesis Tests and Statistical Distributions"
 author: "Philippe Grosjean & Guyliann Engels"
 date: "`r Sys.Date()`"
 output:
@@ -8,7 +8,7 @@ output:
     toc_depth: 3
     fig_caption: yes
 vignette: >
-  %\VignetteIndexEntry{Hypothesis Tests and Statistical Distributions for 'SciViews::R'}
+  %\VignetteIndexEntry{'SciViews::R' - Hypothesis Tests and Statistical Distributions}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

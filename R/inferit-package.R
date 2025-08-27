@@ -1,4 +1,4 @@
-#' Hypothesis Tests and Statistical Distributions for 'SciViews::R'
+#' 'SciViews::R' - Hypothesis Tests and Statistical Distributions
 #'
 #' Statistical distributions and hypothesis tests objects with rich-formatted
 #' charts and tables.
@@ -15,9 +15,6 @@
 #'
 #'- [geom_funfill()] fills a part of a distribution density function.
 #'
-#' @docType package
-#' @name inferit-package
-
 ## usethis namespace: start
 #' @importFrom flextable add_footer_lines add_header_lines align as_paragraph
 #'   autofit flextable compose ncol_keys width
@@ -28,4 +25,4 @@
 #' @importFrom stats density quantile
 #' @importFrom distributional cdf support
 ## usethis namespace: end
-NULL
+"_PACKAGE"

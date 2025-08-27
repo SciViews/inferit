@@ -1,9 +1,9 @@
-# Hypothesis Tests and Statistical Distributions for 'SciViews::R' <a href='https://www.sciviews.org/inferit'><img src='man/figures/logo.png' align='right' height='139'/></a>
+# 'SciViews::R' - Hypothesis Tests and Statistical Distributions <a href='https://www.sciviews.org/inferit'><img src='man/figures/logo.png' align='right' height='138'/></a>
 
 <!-- badges: start -->
-
-[![R-CMD-check](https://github.com/SciViews/inferit/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SciViews/inferit/actions/workflows/R-CMD-check.yaml) [![Codecov test coverage](https://codecov.io/gh/SciViews/inferit/branch/main/graph/badge.svg)](https://codecov.io/gh/SciViews/inferit?branch=main) [![CRAN status](https://www.r-pkg.org/badges/version/inferit)](https://cran.r-project.org/package=inferit) [![r-universe status](https://sciviews.r-universe.dev/badges/inferit)](https://sciviews.r-universe.dev/inferit) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-
+[![R-CMD-check](https://github.com/SciViews/inferit/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SciViews/inferit/actions/workflows/R-CMD-check.yaml)
+[![codecov](https://codecov.io/gh/SciViews/inferit/branch/main/graph/badge.svg)](https://codecov.io/gh/SciViews/inferit?branch=main)
+[![CRAN status](https://www.r-pkg.org/badges/version/inferit)](https://cran.r-project.org/package=inferit) [![r-universe status](https://sciviews.r-universe.dev/badges/inferit)](https://sciviews.r-universe.dev/inferit) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 Inference Tools for SciViews::R
