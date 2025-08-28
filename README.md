@@ -10,10 +10,10 @@ Inference Tools for SciViews::R
 
 ## Installation
 
-{inferit} is not available from CRAN yet. You should install it from the [SciViews R-Universe](https://sciviews.r-universe.dev). You would also need the following packages: {chart} as an alternate formula interface to {ggplot2}, {tabularise} to produce publication-ready (rich-formatted) tabular output, {equatags} and {equatiomatic} packages are optional additions to tabularise to display equations and {data.io} is useful too because it manages labels and units that {chart} and {tabularise} use. To install these six packages and their dependencies, run the following command in R:
+{inferit} is not available from CRAN yet. You should install it from the [SciViews R-Universe](https://sciviews.r-universe.dev). You would also need the following packages: {chart} as an alternate formula interface to {ggplot2}, {tabularise} to produce publication-ready (rich-formatted) tabular output, {equatags} and {equatiomatic} packages are optional additions to tabularise to display equations and {svBase} is useful too because it manages labels and units that {chart} and {tabularise} use. To install these six packages and their dependencies, run the following command in R:
 
 ``` r
-install.packages(c('inferit', 'chart', 'tabularise', 'equatags', 'equatiomatic', 'data.io'),
+install.packages(c('inferit', 'chart', 'tabularise', 'equatags', 'equatiomatic', 'svBase'),
   repos = c('https://sciviews.r-universe.dev', 'https://cloud.r-project.org'))
 ```
 

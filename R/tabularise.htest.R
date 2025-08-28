@@ -10,7 +10,7 @@
 #'   value than header, except outside of a chunk where it is `FALSE` if a table
 #'   caption is detected (`tbl-cap` YAML entry).
 #' @param lang The natural language to use. The default value can be set with,
-#'   e.g., `options(data.io_lang = "fr")` for French.
+#'   e.g., `options(SciViews_lang = "fr")` for French.
 #' @param show.signif.stars If `TRUE`, add the significance stars
 #'   to the table. The default value is obtained from
 #'   `getOption("show.signif.stars"")`.
@@ -35,7 +35,7 @@
 #'
 #' tabularise::tabularise(t.test(x = 1:10, y = 7:20), lang = "fr")
 tabularise_default.htest <- function(data, header = TRUE, title = NULL,
-    lang = getOption("data.io_lang", "en"),
+    lang = getOption("SciViews_lang", "en"),
     show.signif.stars = getOption("show.signif.stars", TRUE), ...,
     kind = "ft", env = parent.frame()) {
 

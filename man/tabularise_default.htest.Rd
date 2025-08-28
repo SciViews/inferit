@@ -8,7 +8,7 @@
   data,
   header = TRUE,
   title = NULL,
-  lang = getOption("data.io_lang", "en"),
+  lang = getOption("SciViews_lang", "en"),
   show.signif.stars = getOption("show.signif.stars", TRUE),
   ...,
   kind = "ft",
@@ -25,7 +25,7 @@ value than header, except outside of a chunk where it is \code{FALSE} if a table
 caption is detected (\code{tbl-cap} YAML entry).}
 
 \item{lang}{The natural language to use. The default value can be set with,
-e.g., \code{options(data.io_lang = "fr")} for French.}
+e.g., \code{options(SciViews_lang = "fr")} for French.}
 
 \item{show.signif.stars}{If \code{TRUE}, add the significance stars
 to the table. The default value is obtained from
