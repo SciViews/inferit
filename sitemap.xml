@@ -1,48 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.sciviews.org/inferit/404.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/CODE_OF_CONDUCT.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/TODO.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/articles/inferit.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/index.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/reference/dfun.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/reference/inferit-package.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/reference/stddev.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sciviews.org/inferit/reference/tabularise_default.htest.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://www.sciviews.org/inferit/404.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/CODE_OF_CONDUCT.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/LICENSE-text.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/LICENSE.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/TODO.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/articles/index.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/articles/inferit.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/authors.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/index.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/news/index.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/reference/dfun.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/reference/index.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/reference/inferit-package.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/reference/stddev.html</loc></url>
+<url><loc>https://www.sciviews.org/inferit/reference/tabularise_default.htest.html</loc></url>
 </urlset>
+
