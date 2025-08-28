@@ -34,7 +34,7 @@ Remotes:
   SciViews/chart,
   SciViews/tabularise
 License: MIT + file LICENSE
-URL: https://github.com/SciViews/inferit, https://www.sciviews.org/inferit/
+URL: https://github.com/SciViews/inferit, https://www.sciviews.org/inferit/, https://sciviews.r-universe.dev/inferit
 BugReports: https://github.com/SciViews/inferit/issues
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
